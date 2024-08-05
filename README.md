@@ -31,3 +31,11 @@ Run the following command to initialize the workspace and apply the sample confi
 ```shell
 $ terraform init && terraform apply
 ```
+
+## Developer Notes
+
+### Documentation
+
+Documentation is generated using `tfplugindocs`. See [terraform-plugin-docs](https://github.com/hashicorp/terraform-plugin-docs) for more details.
+
+A `go:generate` comment is included in the `main.go` file to generate the documentation.
